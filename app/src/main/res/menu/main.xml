@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--NOTE[Philip]: created menu item for db filter options-->
+    <item android:id="@+id/action_school"
+        android:orderInCategory="1"
+        app:showAsAction="never"
+        android:title="@string/action_school" />
+
+    <item android:id="@+id/action_family"
+        android:orderInCategory="1"
+        app:showAsAction="never"
+        android:title="@string/action_family" />
+
+    <item android:id="@+id/action_personal"
+        android:orderInCategory="1"
+        app:showAsAction="never"
+        android:title="@string/action_personal" />
+
+    <item
+        android:id="@+id/action_misc"
+        android:orderInCategory="1"
+        app:showAsAction="never"
+        android:title="@string/action_misc" />
+
+    <item android:id="@+id/action_all_item"
+        android:orderInCategory="1"
+        app:showAsAction="never"
+        android:title="@string/action_all_item" />
+
+</menu>

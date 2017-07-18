@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ToDoList</string>
+
+    <!--NOTE[Philip]: this is the preset category options-->
+    <string-array name="category_array">
+        <item>School</item>
+        <item>Family</item>
+        <item>Personal</item>
+        <item>Misc</item>
+    </string-array>
+
+    <string name="action_family">Family Filter</string>
+    <string name="action_school">School Filter</string>
+    <string name="action_personal">Personal Filter</string>
+    <string name="action_misc">Misc Filter</string>
+    <string name="action_all_item">All Item</string>
+</resources>
